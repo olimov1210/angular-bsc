@@ -1,0 +1,18 @@
+<div id="body">
+    <div id="main-part">
+        <h1>{{title}}</h1>
+        <p>{{description}}</p>
+    </div>
+    <div id="details-part">
+        <div class="details">
+            <h4>Authors: </h4><p>{{authors}}</p>
+        </div>
+        <div class="details">
+            <h4>Duration: </h4><p>{{time_convert(duration)}}</p>
+        </div>
+        <div class="details">
+            <h4>Created: </h4><p>{{creationDate}}</p>
+        </div>
+        <ng-content></ng-content>
+    </div>
+</div>

@@ -1,0 +1,18 @@
+<div>
+    <app-header>
+        <div id="header-right-side">
+            <p id="user-name">Dave</p>
+            <app-button buttonText="Logout"></app-button>
+        </div>
+    </app-header>
+    <course-card *ngFor="let data of courses" [title]="data.title" [description]="data.description" [authors]="data.authors" [duration]="data.duration" [creationDate]="data.creationDate">
+        <div id="buttons">
+            <app-button buttonText="show course"></app-button>
+            <app-button *ngIf="editable" [iconName]="faPen"></app-button>
+            <app-button *ngIf="editable" [iconName]="faTrash"></app-button>
+        </div>
+    </course-card>
+    <app-info title="Your list is empty" text="Please use the 'Add new course' button to add your first course">
+        <app-button buttonText="Add new Course"></app-button>
+    </app-info>
+</div>

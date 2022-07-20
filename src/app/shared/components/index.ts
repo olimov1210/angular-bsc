@@ -1,0 +1,7 @@
+export { CourseCard } from '../../features/course-card/course.component'
+export { CoursesComponent } from '../../features/courses-list/courses.component'
+export { Login } from '../../features/login/login.component'
+export { Registration } from '../../features/registration/registration.component'
+export { HeaderComponent } from '../../features/header/header.component'
+export { ButtonComponent } from '../../features/button/button.component'
+export { InfoComponent } from '../../features/info/info.component'

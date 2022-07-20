@@ -1,0 +1,17 @@
+
+#user-name {
+    margin: 0px 15px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+#header-right-side {
+    display: flex;
+    align-items: center;
+}
+#buttons {
+    display: flex;
+    justify-content: space-evenly;
+}
+#buttons > * {
+    margin-right: 5px;
+}
